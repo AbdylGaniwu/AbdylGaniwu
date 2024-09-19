@@ -1,27 +1,50 @@
-class Abdul:
-    def __init__(self):
-        self.name = "Abdul"
-        self.title = "ML/AI Engineer Dreamer"
-        self.contact = "abdyl.ganiwu@gmail.com"
-        self.linkedin = "https://www.linkedin.com/in/yourprofile"  # Replace with your actual LinkedIn URL
-        self.location = "Accra, Ghana"
-        self.learning = "Data Science"
-        self.skills = ['Python', 'HTML', 'CSS', 'JavaScript']
+def __init__(self):  
 
-    def display_profile(self):
-        profile = (
-            f"Hi 👋 I'm {self.name}\n"
-            f"Title: {self.title}\n"
-            f"Contact: {self.contact}\n"
-            f"LinkedIn: {self.linkedin}\n"
-            f"Location: {self.location}\n"
-            f"Currently Learning: {self.learning}\n"
-            f"Skills: {', '.join(self.skills)}"
-        )
-        return profile
+        self.name = "Abdul"  
 
-if __name__ == '__main__':
-    print(Abdul().display_profile())
+        self.title = "ML/AI Engineer Dreamer"  
+
+        self.contact = "abdyl.ganiwu@gmail.com"  
+
+        self.linkedin = "https://www.linkedin.com/in/yourprofile"  # replace with your actual LinkedIn profile URL  
+
+        self.location = "Born in Ghana, currently living in Accra, Ghana"  # Added location information  
+
+        self.learning = "Data Science"  
+
+        self.collaboration_interest = "Looking to collaborate on exciting projects"  
+
+        self.skills = ['Python', 'HTML', 'CSS', 'JavaScript']  
+
+
+
+    def display_profile(self):  
+
+        return (f"Hi 👋 I'm {self.name}\n"  
+
+                f"Title: {self.title}\n"  
+
+                f"Contact: {self.contact}\n"  
+
+                f"LinkedIn: {self.linkedin}\n"  
+
+                f"Location: {self.location}\n"  # Included location in the output  
+
+                f"Currently Learning: {self.learning}\n"  
+
+                f"Collaboration Interest: {self.collaboration_interest}\n"  
+
+                f"Skills: {', '.join(self.skills)}")  
+
+
+
+if __name__ == '__main__':  
+
+    profile = Abdul()  
+
+    profile_info = profile.display_profile()  
+
+    print(profile_info)
 
 
 
