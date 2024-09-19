@@ -1,11 +1,11 @@
-```
+-
 class Abdul_Ganiwu:
     def __init__(self):
         self.name = "Abdul Ganiwu"
         self.profession = "Pharmacy Technician"
         self.title = "ML/AI Engineer Enthusiast"
         self.contact = "abdyl.ganiwu@gmail.com"
-        self.linkedin = https:/www.linkedin.com/in/abdul-ganiwu/
+        self.linkedin = "https:/www.linkedin.com/in/abdul-ganiwu/"
         self.location = "Accra, Ghana"
         self.learning = "Data Science"
         self.collaboration_interest = "Looking to collaborate on exciting projects and learn"
