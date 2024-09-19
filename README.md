@@ -1,5 +1,5 @@
 class AbdulGaniwu:  
-    def __init__(self):  
+    def__init__(self):  
         self.name = "Abdul Ganiwu"  
         self.profession = "Pharmacy Technician"  
         self.title = "ML/AI Engineer Enthusiast"  
