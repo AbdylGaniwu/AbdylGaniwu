@@ -2,7 +2,7 @@ class AbdulGaniwu:
     def __init__(self):  
         self.name = "Abdul Ganiwu"  
         self.profession = "Pharmacy Technician"  
-        self.title = "ML/AI Engineer Dreamer"  
+        self.title = "ML/AI Engineer Visionary" 
         self.contact = "abdyl.ganiwu@gmail.com"  
         self.linkedin = "https://www.linkedin.com/in/abdul-ganiwu/"  
         self.location = "Accra, Ghana"  
