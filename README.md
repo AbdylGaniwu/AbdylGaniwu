@@ -1,3 +1,4 @@
+```
 class AbdulGaniwu:  
     def __init__(self):  
         self.name = "Abdul"  
@@ -28,7 +29,7 @@ if __name__ == '__main__':
     print(AbdulGaniwu().display_profile())
 
 
-
+i want it to print perfectly after saving on my github profile readme
 
 
 
