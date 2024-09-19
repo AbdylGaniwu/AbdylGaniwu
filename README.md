@@ -1,29 +1,32 @@
-class Abdul:
+-
+class AbdulGaniwu:
     def __init__(self):
-        self.name = "Abdul"
-        self.title = "ML/AI Engineer Dreamer"
+        self.name = "Abdul Ganiwu"
+        self.profession = "Pharmacy Technician"
+        self.title = "ML/AI Engineer Enthusiast"
         self.contact = "abdyl.ganiwu@gmail.com"
         self.linkedin = "https://www.linkedin.com/in/abdul-ganiwu/"
+        self.location = "Accra, Ghana"
         self.learning = "Data Science"
-        self.collaboration_interest = "Looking to collaborate on exciting projects"
-        self.skills = ['Python', 'HTML', 'CSS', 'JavaScript']
+        self.collaboration_interest = "Looking to collaborate on exciting projects and learn"
+        self.skills = ['Python', 'HTML', 'CSS', 'JavaScript', 'Microsoft SQL Server']
 
     def display_profile(self):
-        return (f"Hi 👋 I'm {self.name}\n"
-                f"Title: {self.title}\n"
-                f"Contact: {self.contact}\n"
-                f"LinkedIn: {self.linkedin}\n"
-                f"Currently Learning: {self.learning}\n"
-                f"Collaboration Interest: {self.collaboration_interest}\n"
-                f"Skills: {', '.join(self.skills)}")
+        profile = (
+            f"Hi 👋 I'm {self.name}"
+            f"Profession: {self.profession}"
+            f"Title: {self.title}"
+            f"Contact: {self.contact}"
+            f"LinkedIn: {self.linkedin}"
+            f"Location: {self.location}"
+            f"Currently Learning: {self.learning}"
+            f"Collaboration Interest: {self.collaboration_interest}"
+            f"Skills: {', '.join(self.skills)}"
+        )
+        return profile
 
 if __name__ == '__main__':
-    profile = Abdul()
-    profile_info = profile.display_profile()
-    print(profile_info)
-
-
-
+    print(AbdulGaniwu().display_profile())
 
 
 
