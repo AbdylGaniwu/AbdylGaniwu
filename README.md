@@ -1,34 +1,41 @@
----
-class AbdulGaniwu:
-    def __init__(self):
-        self.name = "Abdul Ganiwu"
-        self.profession = "Pharmacy Technician"
-        self.title = "ML/AI Engineer Enthusiast"
-        self.contact = "abdyl.ganiwu@gmail.com"
-        self.linkedin = "https://www.linkedin.com/in/abdul-ganiwu/"
-        self.location = "Accra, Ghana"
-        self.learning = "Data Science"
-        self.collaboration_interest = "Looking to collaborate on exciting projects and learn"
-        self.skills = ['Python', 'HTML', 'CSS', 'JavaScript', 'Microsoft SQL Server']
+def create_profile(name, title, email, learning, collaboration):
+  """
+  Creates a formatted GitHub profile.
+  """
 
-    def display_profile(self):
-        profile = (
-            f"Hi 👋 I'm {self.name}"
-            f"Profession: {self.profession}"
-            f"Title: {self.title}"
-            f"Contact: {self.contact}"
-            f"LinkedIn: {self.linkedin}"
-            f"Location: {self.location}"
-            f"Currently Learning: {self.learning}"
-            f"Collaboration Interest: {self.collaboration_interest}"
-            f"Skills: {', '.join(self.skills)}"
-        )
-        return profile
+  profile = f"""
+  ## {name}
 
-if __name__ == '__main__':
-    print(AbdulGaniwu().display_profile())
+  **{title}**
 
-----
+  **Contact:**
+  * {email}
+
+  **Currently Learning:**
+  * {learning}
+
+  **Looking for Collaboration:**
+  * {collaboration}
+
+  ---
+
+  **Skills:**
+  * Python
+  * HTML
+  * CSS
+  * JavaScript (Basic)
+  """
+
+  return profile
+
+# Get user input and print the profile
+name = input("Enter your name: ")
+title = input("Enter your title (e.g., ML/AI Engineer): ")
+email = input("Enter your email address: ")
+learning = input("What are you currently learning (e.g., Data Science)? ")
+collaboration = input("What are you looking to collaborate on? ")
+
+print(create_profile(name, title, email, learning, collaboration))
 
 
 <!--
