@@ -1,4 +1,4 @@
--
+---
 class Abdul_Ganiwu:
     def __init__(self):
         self.name = "Abdul Ganiwu"
@@ -27,7 +27,4 @@ class Abdul_Ganiwu:
 
 if __name__ == '__main__':
     print(AbdulGaniwu().display_profile())
-
-
-
-put highlight on the https://www.linkedin.com/in/abdul-ganiwu/ and  abdyl.ganiwu@gmail.com after print
+---
