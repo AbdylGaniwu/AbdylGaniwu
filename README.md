@@ -1,3 +1,4 @@
+## Hi there 👋
 
 class Abdul_Ganiwu:
     def __init__(self):
@@ -26,7 +27,7 @@ class Abdul_Ganiwu:
         return profile
 
 if __name__ == '__main__':
-    Abdul_Ganiwu().display_profile()
+    print(Abdul_Ganiwu().display_profile())
 
 
 
