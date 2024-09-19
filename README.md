@@ -24,7 +24,6 @@ class AbdulGaniwu:
             f"Skills: {', '.join(self.skills)}"
         )
         return profile
-
 if __name__ == '__main__':
     print(AbdulGaniwu().display_profile())
 
