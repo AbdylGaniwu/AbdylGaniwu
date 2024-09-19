@@ -1,4 +1,4 @@
--
+---
 class AbdulGaniwu:
     def __init__(self):
         self.name = "Abdul Ganiwu"
@@ -28,7 +28,7 @@ class AbdulGaniwu:
 if __name__ == '__main__':
     print(AbdulGaniwu().display_profile())
 
-
+----
 
 
 <!--
