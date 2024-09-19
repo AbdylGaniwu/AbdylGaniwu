@@ -1,5 +1,4 @@
-
-class Abdul_Ganiwu:  
+class AbdulGaniwu:  
     def __init__(self):  
         self.name = "Abdul Ganiwu"  
         self.profession = "Pharmacy Technician"  
@@ -24,8 +23,8 @@ class Abdul_Ganiwu:
             f"Skills: {', '.join(self.skills)}."  
         )  
         return profile  
-
-if __name__ == '__main__':  
+        
+    if __name__ == '__main__':  
     print(AbdulGaniwu().display_profile())
 
 
