@@ -13,17 +13,17 @@ class Abdul_Ganiwu:
 
     def display_profile(self):
         profile = (
-            f"Hi 👋 I'm {self.name}"
-            f"Profession: {self.profession}"
-            f"Title: {self.title}"
-            f"Contact: {self.contact}"
-            f"LinkedIn: {self.linkedin}"
-            f"Location: {self.location}"
-            f"Currently Learning: {self.learning}"
-            f"Collaboration Interest: {self.collaboration_interest}"
-            f"Skills: {', '.join(self.skills)}"
+            f"Hi 👋 I'm {self.name}\n"
+            f"Profession: {self.profession}\n"
+            f"Title: {self.title}\n"
+            f"Contact: {self.contact}\n"
+            f"LinkedIn: {self.linkedin}\n"
+            f"Location: {self.location}\n"
+            f"Currently Learning: {self.learning}\n"
+            f"Collaboration Interest: {self.collaboration_interest}\n"
+            f"Skills: {', '.join(self.skills)}\n"
         )
         return profile
 
 if __name__ == '__main__':
-    print(AbdulGaniwu().display_profile())
+    print(Abdul_Ganiwu().display_profile())
