@@ -2,14 +2,14 @@
 class Abdul_Ganiwu:
     def __init__(self):
         self.name = "Abdul Ganiwu"
-        self.profession = "Pharmacy Technician"
-        self.title = "ML/AI Engineer Enthusiast"
+        self.profession = "Student"
+        self.title = "ML/AI Engineer & Midical Research Enthusiast, "
         self.contact = "abdyl.ganiwu@gmail.com"
         self.linkedin = "https:/www.linkedin.com/in/abdul-ganiwu/"
-        self.location = "Accra, Ghana"
+        self.location = "Cincinnati, OH"
         self.learning = "Data Science"
         self.collaboration_interest = "Looking to collaborate on exciting projects and learn"
-        self.skills = ['Python', 'HTML', 'CSS', 'JavaScript', 'Microsoft SQL Server']
+        self.skills = ['Excel, Spreadsheet, Python', 'HTML', 'CSS', 'Microsoft SQL Server']
 
     def display_profile(self):
         profile = (
